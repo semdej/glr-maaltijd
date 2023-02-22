@@ -4,30 +4,64 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     margin: 0;
 }
-.logo{
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    float: left;
-}
+
 .nav{
-    height: 80px;
+    font-size: 20px;
+    height: 100px;
     width: 100%;
     display: flex;
-    
+    background-color: #E4E3E3;
+}
+.logo {
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 .navtext{
-    margin-top: 30px;
-    float: left;
-    position: absolute;
-    margin-left: 66%;
-    margin-bottom: 30px;
+    margin-left: 63%;
+    margin-top: 35px;
+    margin-bottom: 40px;
 }
-.navtext a{
-    color: white;
+#navtext{
     text-decoration: none;
-    background-color: #09625c;
-    border-radius: 6px;
-    padding: 5px;
-    height: 40px;
+    color: #09625C;
+    margin-right: 50px;
+}
+.Bestellen{
+ margin-right: 10px;
+ color: white;
+ text-decoration: none;
+ background-color: #09625C;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+/*for diffrent screen sizes*/
+@media (max-width:1310px){
+    .navtext{
+        margin-left: 55%;
+    }
+}
+@media (max-width:1080px){
+    .navtext{
+        margin-left: 45%;
+    }
+}
+@media (max-width:888px){
+    .navtext{
+        margin-left: 30%;
+    }
+}
+@media (max-width:695px){
+    .navtext{
+        margin-left: 10%;
+    }
+}
+@media (max-width:545px){
+    .navtext{
+        margin-left: 25%;
+    }
+    #navtext{
+        display: none;
+    }
 }
