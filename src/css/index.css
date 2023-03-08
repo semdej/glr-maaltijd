@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(221, 217, 211);
+    font-family: "M PLUS Rounded 1c", Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+ 
+}
+
+.header {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    
+}
+
+.header1 {
+position: absolute;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: flex-end;    
+    padding-right: 25px;
+    padding-top: 10px;
+
+}
+
+#knop {
+    margin-left: 50px;
+    color: black;
+    font-size: x-large;
+
+}
+
+.header img{
+max-width: 50px;
+max-height: 50px;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    height: 331px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../pic/pizza.jpeg);
+    background-size: cover;
+}
+
+.main h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.submain {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+    .submain {
+      flex-direction: column;
+    }
+  }
+
+.submain1 {
+    width: 100%;
+    background-color: white;
+    height: 610px;
+    margin-top: 5px;
+    margin-right: 2.5px;
+    background: url(../pic/pasta.jpg);
+    background-size: cover;
+}
+
+.submain2 {
+    width: 100%;
+    background-color: white;
+    height: 610px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+}
+
+.footer{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer p{
+    padding-left: 15px;
+}
+
