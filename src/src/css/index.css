@@ -53,7 +53,7 @@ max-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(src/media/pizza.jpeg);
+    background: url(src/pic/pizza.jpeg);
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@ max-height: 50px;
     height: 610px;
     margin-top: 5px;
     margin-right: 2.5px;
-    background: url(src/media/pasta.jpg);
+    background: url(src/pic/pasta.jpg);
     background-size: cover;
 }
 
