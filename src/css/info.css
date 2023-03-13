@@ -4,7 +4,7 @@ body{
 }
 .logo{
     height: 60px;
-    min-width: 87px;
+    min-width: 82px;
 }
 a {
     text-decoration: none;
@@ -31,7 +31,7 @@ padding-left: 20px;
     display: flex;
     justify-content: flex-end;    
     padding-right: 25px;
-    padding-top: 10px;
+    padding-top: 22px;
 
 }
 
@@ -48,15 +48,17 @@ max-height: 50px;
 }
 
 .main{
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
     background-color: white;
-    height: 331px;
+    height: 400px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pizza.jpeg);
+    background: url(../pic/pizzafromabove.avif);
     background-size: cover;
+    border-radius: 7px;
 }
 
 .main h1{
@@ -67,6 +69,8 @@ max-height: 50px;
 .submain {
     display: flex;
     flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 @media (max-width: 1000px) {
@@ -83,6 +87,8 @@ max-height: 50px;
     margin-right: 2.5px;
     background: url(../pic/pasta.jpg);
     background-size: cover;
+    border-radius: 7px;
+
 }
 
 .submain2 {
@@ -91,6 +97,8 @@ max-height: 50px;
     height: 610px;
     margin-top: 5px;
     margin-left: 2.5px;
+    border-radius: 7px;
+
 }
 
 .footer{
