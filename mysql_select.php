@@ -23,13 +23,4 @@ $price1 = $row['price1'];
 $product2 = $row['product2'];
 $price2 = $row['price2'];
 
-if ($status < 1)
-{
-    $status = "Aan het bereiden";
-}
-else
-{
-    $status = "Onderweg";
-}
-
 $conn->close();

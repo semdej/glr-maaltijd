@@ -41,6 +41,12 @@ $conn->close();
     <label for="ordernummer">Ordernummer:</label>
     <input type="text" name="ordernummer" id="ordernummer" />
     <br />
+    <label for="status">Status:</label>
+    <select id="status" name="status">
+        <option value="preparing">Bereiden</option>
+        <option value="delivering">Bezorgen</option>
+        <option value="delivered">Bezorgd</option>
+    </select>
     <input id="mark" type="submit" value="Mark as done" />
 </form>
 </body>
