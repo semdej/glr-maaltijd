@@ -39,7 +39,7 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" />
         <br />
-        <label for="pizzas">Product 1 (Naam & Prijs):</label>
+        <label for="pizzas">Pizza:</label>
         <select id="pizzas" name="pizzas">
             <option value="margarita">Margarita €7,80</option>
             <option value="marinara">Marinara €8,00</option>
@@ -47,7 +47,7 @@
             <option value="quattroformaggi">Quattro Formaggi €8,00</option>
         </select>
         <br />
-        <label for="drinks">Product 2 (Naam & Prijs):</label>
+        <label for="drinks">Drinken:</label>
         <select id="drinks" name="drinks">
             <option value="cocacola">Coca Cola €2,30</option>
             <option value="cocacolazero">Coca Cola Zero €2,25</option>

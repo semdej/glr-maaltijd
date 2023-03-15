@@ -21,12 +21,27 @@ if ($result->num_rows > 0) {
     echo "<table><tr><th>Orderid</th><th>Name</th><th>Lastname</th><th>Email</th><th>Product1</th><th>Product2
     </th></tr>";
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["orderid"]. "</td><td>" . $row["name"]."</td><td>" . $row["lastname"]."</td><td>" . $row["email"]."</td><td>" . $row["product1"]."</td><td>" . $row["product2"]."</td>". "<td><button type='button' onclick='myFunction()'>Mark as done</button></td></tr>";
+        echo "<tr><td>" . $row["orderid"]. "</td><td>" . $row["name"]."</td><td>" . $row["lastname"]."</td><td>" . $row["email"]."</td><td>" . $row["product1"]."</td><td>" . $row["product2"]."</td>";
     }
     echo "</table>";
-} else {
-    echo "0 results";
 }
 
-
 $conn->close();
+
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bestelling Bekijken</title>
+</head>
+<body>
+<form action="update_order.php" method="post">
+    <label for="ordernummer">Ordernummer:</label>
+    <input type="text" name="ordernummer" id="ordernummer" />
+    <br />
+    <input id="mark" type="submit" value="Mark as done" />
+</form>
+</body>
+</html>

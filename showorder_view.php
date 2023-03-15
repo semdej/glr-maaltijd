@@ -22,8 +22,8 @@
     </p>
     <p>
         <span class="nadruk">Bestelde producten:</span>
-    <p> <?= "$product1" ?> <?= "$price1" ?> </p>
-    <p> <?= "$product2" ?> <?= "$price2" ?> </p>
+    <p> <?= "$product1" ?> €<?= "$price1" ?> </p>
+    <p> <?= "$product2" ?> €<?= "$price2" ?> </p>
     <p> <?= "$orderid" ?> </p>
     <p>
         <span class="nadruk">Status: <?= "$status" ?></span>
