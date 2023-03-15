@@ -39,13 +39,21 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" />
         <br />
-        <label for="product1">Product 1 (Naam & Prijs):</label>
-        <input type="text" name="product1" id="product1" />
-        <input type="number" name="price1" id="price1" />
+        <label for="pizzas">Product 1 (Naam & Prijs):</label>
+        <select id="pizzas" name="pizzas">
+            <option value="margarita">Margarita €7,80</option>
+            <option value="marinara">Marinara €8,00</option>
+            <option value="capricciosa">Capricciosa €8,30</option>
+            <option value="quattroformaggi">Quattro Formaggi €8,00</option>
+        </select>
         <br />
-        <label for="product2">Product 2 (Naam & Prijs):</label>
-        <input type="text" name="product2" id="product2" />
-        <input type="number" name="price2" id="price2" />
+        <label for="drinks">Product 2 (Naam & Prijs):</label>
+        <select id="drinks" name="drinks">
+            <option value="cocacola">Coca Cola €2,30</option>
+            <option value="cocacolazero">Coca Cola Zero €2,25</option>
+            <option value="sprite">Sprite €2,15</option>
+            <option value="redbull">Red Bull €3,00</option>
+        </select>
         <br />
         <input type="submit" value="Bestel" />
     </form></div>

@@ -3,10 +3,29 @@
     $name = $_POST['name'];
     $lastname = $_POST['lastname'];
     $email = $_POST['email'];
-    $product1 = $_POST['product1'];
-    $price1 = $_POST['price1'];
-    $product2 = $_POST['product2'];
-    $price2 = $_POST['price2'];
+    $product1 = $_POST['pizzas'];
+    $product2 = $_POST['drinks'];
+
+    if ($product1 === 'margarita') {
+        $price1 = '7.80';
+    } elseif ($product1 === 'marinara') {
+        $price1 = '8';
+    } elseif ($product1 === 'capricciosa') {
+        $price1 = '8.30';
+    } elseif ($product1 === 'quattroformaggi') {
+        $price1 = '8';
+    }
+
+    if ($product2 === 'cocacola') {
+        $price2 = '2.30';
+    } elseif ($product2 === 'cocacolazero') {
+        $price2 = '2.25';
+    } elseif ($product2 === 'sprite') {
+        $price2 = '2.15';
+    } elseif ($product2 === 'redbull') {
+        $price2 = '3';
+    }
+
     function generateRandomString($length = 10) {
         return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
     }
