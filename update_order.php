@@ -12,8 +12,9 @@ if ($conn->connect_error) {
 }
 
 $orderid = $_POST['ordernummer'];
+$statusupdate = $_POST['status'];
 
-$sql = "UPDATE orders SET status='1' WHERE orderid='$orderid'";
+$sql = "UPDATE orders SET status='$statusupdate' WHERE orderid='$orderid'";
 $result = $conn->query($sql);
 
 $conn->close();
