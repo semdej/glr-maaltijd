@@ -29,18 +29,18 @@
 <div class="submain">
 
 <div class="submain1">
-    <form style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="verwerk.php" method="post">
+    <form class="form" style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="verwerk.php" method="post">
         <label for="name">Naam:</label>
-        <input type="text" name="name" id="name" />
+        <input class="forminput" type="text" name="name" id="name" />
         <br />
         <label for="lastname">Achternaam:</label>
-        <input type="text" name="lastname" id="lastname" />
+        <input class="forminput" type="text" name="lastname" id="lastname" />
         <br />
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
+        <input class="forminput" type="email" name="email" id="email" />
         <br />
         <label for="pizzas">Pizza:</label>
-        <select id="pizzas" name="pizzas">
+        <select class="forminput" id="pizzas" name="pizzas">
             <option value="margarita">Margarita €7,80</option>
             <option value="marinara">Marinara €8,00</option>
             <option value="capricciosa">Capricciosa €8,30</option>
@@ -48,14 +48,14 @@
         </select>
         <br />
         <label for="drinks">Drinken:</label>
-        <select id="drinks" name="drinks">
+        <select class="forminput" id="drinks" name="drinks">
             <option value="cocacola">Coca Cola €2,30</option>
             <option value="cocacolazero">Coca Cola Zero €2,25</option>
             <option value="sprite">Sprite €2,15</option>
             <option value="redbull">Red Bull €3,00</option>
         </select>
         <br />
-        <input type="submit" value="Bestel" />
+        <input class="forminput" type="submit" value="Bestel" />
     </form></div>
 
 <div class="submain2">
