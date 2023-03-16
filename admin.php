@@ -47,7 +47,7 @@ $conn->close();
         <option value="delivering">Bezorgen</option>
         <option value="delivered">Bezorgd</option>
     </select>
-    <input id="mark" type="submit" value="Mark as done" />
+    <input id="mark" type="submit" value="Update" />
 </form>
 </body>
 </html>
