@@ -1,6 +1,7 @@
 <?php
+    session_start();
 
-
+     $adress = $_SESSION['adress'];
      $name = $_POST['name'];
      $lastname = $_POST['lastname'];
      $email = $_POST['email'];

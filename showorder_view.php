@@ -34,6 +34,7 @@
         <p> Ordernummer: <?= "$orderid" ?> </p>
         <p>
             <span class="nadruk"> <?= $labelByStatus->{$status} ?> </span><i id="statusicon" class="<?= $iconByStatus->{$status} ?>"></i>
+            <span class="nadruk"> <?= $adress; ?> </span>
 
     </div>
 </div>

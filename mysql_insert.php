@@ -11,8 +11,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO `orders` (orderid, name, lastname, email, product1, price1, product2, price2) 
-VALUES ('$orderid', '$name','$lastname','$email', '$product1', '$price1', '$product2', '$price2')";
+$sql = "INSERT INTO `orders` (adress, orderid, name, lastname, email, product1, price1, product2, price2) 
+VALUES ('$adress', '$orderid', '$name','$lastname','$email', '$product1', '$price1', '$product2', '$price2')";
 $result = $conn->query($sql);
 
 $conn->close();

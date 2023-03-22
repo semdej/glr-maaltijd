@@ -10,10 +10,11 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name, lastname, email, status, product1, price1, product2, price2 FROM orders WHERE orderid='$orderid'";
+$sql = "SELECT adress, name, lastname, email, status, product1, price1, product2, price2 FROM orders WHERE orderid='$orderid'";
 $result = $conn->query($sql);
 $row = mysqli_fetch_array($result);
 
+$adress = $row['adress'];
 $name = $row['name'];
 $lastname = $row['lastname'];
 $status = $row['status'];
