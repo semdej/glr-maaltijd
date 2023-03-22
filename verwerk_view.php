@@ -22,20 +22,14 @@
 
     <div class="main">
         <div class="logofront"><a></a></div>
-        <h1 style="font-size: 2.5rem">Bedankt voor uw bestelling</h1>
-        <h3 style="color: white; font-size: 2.5rem">&nbsp;<?= "$name ". "$lastname" ?>!</h3>
+        <h1 style="font-size: 2.5rem">We hebben uw bestelling ontvangen!</h1>
 
     </div>
 
     <div style="max-width: 50rem; margin-left: auto; margin-right: auto;">
-        <p>
-        <p> <?= "$product1" ?> €<?= "$price1" ?> </p>
-        <p> <?= "$product2" ?> €<?= "$price2" ?> </p>
+        <a href="order.php" style="color: darkgreen; text-decoration: none;">Klik hier om uw bestelling te bekijken</a>
         <p> Ordernummer: <?= "$orderid" ?> </p>
-        <p>
-            <span class="nadruk"> <?= $labelByStatus->{$status} ?> </span><i id="statusicon" class="<?= $iconByStatus->{$status} ?>"></i>
-            <span class="nadruk"> <?= $adress ?> </span>
-
+        <img style="max-width: 6rem" src="<?= $imgByStatus->{$status} ?>" alt="status" class="status">
     </div>
 </div>
 

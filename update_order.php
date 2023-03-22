@@ -14,7 +14,13 @@ if ($conn->connect_error) {
 $orderid = $_POST['ordernummer'];
 $statusupdate = $_POST['status'];
 
-$sql = "UPDATE orders SET status='$statusupdate' WHERE orderid='$orderid'";
+
+if (isset($_POST['mark'])) {
+    $sql = "UPDATE orders SET status='$statusupdate' WHERE orderid='$orderid'";
+} else if (isset($_POST['delete'])) {
+    $sql = "DELETE FROM orders WHERE orderid='$orderid'";
+}
 $result = $conn->query($sql);
+header("Location: admin.php");
 
 $conn->close();
