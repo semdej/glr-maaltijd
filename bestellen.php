@@ -38,13 +38,13 @@ $_SESSION['adress'] = $_POST['adress'];
     <div class="form">
     <form class="form" style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="verwerk.php" method="post">
         <label for="name">Naam:</label>
-        <input class="forminput" type="text" name="name" id="name" />
+        <input class="forminput" type="text" name="name" id="name" required />
         <br />
         <label for="lastname">Achternaam:</label>
-        <input class="forminput" type="text" name="lastname" id="lastname" />
+        <input class="forminput" type="text" name="lastname" id="lastname" required />
         <br />
         <label for="email">Email:</label>
-        <input class="forminput" type="email" name="email" id="email" />
+        <input class="forminput" type="email" name="email" id="email" required />
         <br />
         <label for="pizzas">Pizza:</label>
         <select class="forminput" id="pizzas" name="pizzas">

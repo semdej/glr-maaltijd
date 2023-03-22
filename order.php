@@ -7,7 +7,7 @@
 <body>
 <form style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="showorder.php" method="post">
     <label for="ordernummer">Ordernummer:</label>
-    <input type="text" name="ordernummer" id="ordernummer" />
+    <input type="text" name="ordernummer" id="ordernummer" required />
     <br />
     <input type="submit" value="Bekijken" />
 </form>

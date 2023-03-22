@@ -48,7 +48,7 @@ $conn->close();
 <body>
 <form action="update_order.php" method="post">
     <label for="ordernummer">Ordernummer:</label>
-    <input type="text" name="ordernummer" id="ordernummer" />
+    <input type="text" name="ordernummer" id="ordernummer" required />
     <br />
     <label for="status">Status:</label>
     <select id="status" name="status">

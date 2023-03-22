@@ -32,7 +32,7 @@
     <div class="form">
     <form class="form" style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="bestellen.php" method="post">
         <label for="name">Adres:</label>
-        <input placeholder="Adres, b.v. Amstelplein 10" class="forminput" type="text" name="adress" id="adress" />
+        <input placeholder="Adres, b.v. Amstelplein 10" class="forminput" type="text" name="adress" id="adress" required />
         <br />
         <input class="forminput" type="submit" value="Verder" />
     </form>
