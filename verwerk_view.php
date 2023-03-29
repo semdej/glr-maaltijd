@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/index.css">
-    <link rel="shortcut icon" href="logo(same folder as html).png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/logo(same folder as html).png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d7ff45ea38.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
 <body>
 <div class="container">
     <div class="header">
+<<<<<<< HEAD
         <div class="header1"><a href="Index.php"><img src="logo(same folder as html).png" alt="logo" class="logo"></a></div>
+=======
+        <div class="header1"><img src="src/logo(same folder as html).png" alt="logo" class="logo"></div></a>
+>>>>>>> 612e22a061c99a1bcec61ddb9e71277b08c63eff
         <div class="header2">
             <a id="knop" href="index.html">Menu</a>
             <a id="knop" href="index.html">Info</a>
@@ -26,7 +30,7 @@
 
     </div>
 
-    <div style="max-width: 50rem; margin-left: auto; margin-right: auto;">
+    <div style="max-width: 50rem; margin-left: auto; margin-right: auto; text-align: center; margin-top: 0.5rem">
         <a href="order.php" style="color: darkgreen; text-decoration: none;">Klik hier om uw bestelling te bekijken</a>
         <p> Ordernummer: <?= "$orderid" ?> </p>
         <img style="max-width: 6rem" src="<?= $imgByStatus->{$status} ?>" alt="status" class="status">

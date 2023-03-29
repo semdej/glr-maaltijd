@@ -19,7 +19,9 @@ $_SESSION['adress'] = $_POST['adress'];
 
 
 <div class="header">
-    <div class="header1"><a href="Index.php"><img src="logo(same folder as html).png" alt="logo" class="logo"></a></div>
+<<<<<<< HEAD
+    <div class="header1"><a href="Index.php"><img src="pic/no" alt="logo" class="logo"></a></div>
+
 <div class="header2">
 <a id="knop" href="index.html">Menu</a>
 <a id="knop" href="index.html">Info</a>
