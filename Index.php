@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/index.css">
-    <link rel="shortcut icon" href="logo(same folder as html).png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/logo(same folder as html).png" type="image/x-icon">
     <title>Home</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 
 
 <div class="header">
-<div class="header1"><img src="logo(same folder as html).png" alt="logo" class="logo"></div></a>
+<div class="header1"><img src="src/logo(same folder as html).png" alt="logo" class="logo"></div></a>
 <div class="header2">
 <a id="knop" href="index.html">Menu</a>
 <a id="knop" href="index.html">Info</a>
