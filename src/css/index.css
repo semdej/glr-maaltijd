@@ -1,3 +1,4 @@
+/*body/lettertype*/
 body{
     width: 100%;
     height: 100%;
@@ -62,8 +63,10 @@ padding-left: 20px;
     height: 32px;
     border: #09625c solid 5px;
     margin-top: 16px;
-
 }
+#knop1:hover{background: #0d8c86;border:#0d8c86 solid 5px;}
+
+/**/
 @media screen and (max-width: 550px) {
     #knop{
         font-size: medium;
@@ -203,10 +206,12 @@ max-height: 50px;
 /*form styling*/
 
 .form{
+    margin-top: 25px;
     max-width: 500px;
     padding: 10px 20px;
     background: #f4f7f8;
-    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     background: #f4f7f8;
     border-radius: 8px;
@@ -289,8 +294,8 @@ max-height: 50px;
     padding: 19px 39px 18px 39px;
     color: #FFF;
     margin: 0 auto;
-    background: #09615C;
-    font-size: 18px;
+    background: #09625c;
+    font-size: 22px;
     text-align: center;
     font-style: normal;
     width: 100%;
