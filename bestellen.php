@@ -11,7 +11,7 @@ $_SESSION['adress'] = $_POST['adress'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/index.css">
-    <link rel="shortcut icon" href="logo(same folder as html).png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/logo(same folder as html).png" type="image/x-icon">
     <title>Home</title>
 </head>
 <body>
