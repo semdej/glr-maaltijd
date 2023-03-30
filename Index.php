@@ -13,11 +13,8 @@
 
 
 <div class="header">
-<<<<<<< HEAD
 <div class="header1"><a href="Index.php"><img src="logo.png" alt="logo" class="logo"></a></div>
-=======
 <div class="header1"><img src="src/logo(same folder as html).png" alt="logo" class="logo"></div></a>
->>>>>>> 612e22a061c99a1bcec61ddb9e71277b08c63eff
 <div class="header2">
 <a id="knop" href="index.html">Menu</a>
 <a id="knop" href="index.html">Info</a>
