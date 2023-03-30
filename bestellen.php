@@ -1,17 +1,11 @@
-<?php
-session_start();
-$_SESSION['adress'] = $_POST['adress'];
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/index.css">
-    <link rel="shortcut icon" href="src/logo(same folder as html).png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/bestellen.css">
+    <link rel="shortcut icon" href="src/pic/logo.png" type="image/x-icon">
     <title>Home</title>
 </head>
 <body>
@@ -19,18 +13,17 @@ $_SESSION['adress'] = $_POST['adress'];
 
 
 <div class="header">
-
-    <div class="header1"><a href="Index.php"><img src="logo.png" alt="logo" class="logo"></a></div>
-
+    <a href="index.php"><div class="header1"><img src="src/pic/logo.png" alt="logo" class="logo"></div></a>
 <div class="header2">
-<a id="knop" href="index.html">Menu</a>
-<a id="knop" href="index.html">Info</a>
-<a id="knop1" href="index.html">Bestellen</a>
+<a id="knop" href="order.php">Order</a>
+    <a id="knop" href="menu.php">Menu</a>
+<a id="knop1" href="bestellen.php">Bestellen</a>
 </div>
 </div>
 
 <div class="main">
 <div class="logofront"><a></a></div>
+    <div class="maint">Bestellen</div>
 </div>
 
 
@@ -68,11 +61,6 @@ $_SESSION['adress'] = $_POST['adress'];
     </form>
     </div>
 </div>
-
-<div class="submain2">
-Main 2
-</div>
-
 </div>
 
 
