@@ -110,7 +110,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pizzafromabove.avif);
+    background: url(../pic/main.png);
     background-size: cover;
     border-radius: 7px;
 }

@@ -226,10 +226,9 @@ max-height: 50px;
 /*form styling*/
 
 .form{
-
     max-width: 500px;
     padding: 5px 10px;
-    margin: 8px auto;
+    margin: 25px auto;
     background: #f4f7f8;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;

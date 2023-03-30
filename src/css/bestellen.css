@@ -96,7 +96,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pizzafromabove.avif);
+    background: url(../pic/main.png);
     background-size: cover;
     border-radius: 7px;
 }
@@ -139,7 +139,7 @@ a {
     width: 100%;
     height: 610px;
     margin-top: 5px;
-    background: url(../pic/pasta.jpg);
+    background: url(../pic/wood.png);
     background-size: cover;
     border-radius: 7px;
     background-color: #d80a44;

@@ -96,7 +96,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pizzafromabove.avif);
+    background: url(../pic/order.png);
     background-size: cover;
     border-radius: 7px;
 }
