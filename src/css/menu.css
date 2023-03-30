@@ -1,0 +1,330 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "M PLUS Rounded 1c", Tahoma, sans-serif;
+}
+
+/*header*/
+.logo{
+    height: 60px;
+    min-width: 82px;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    top: 0;
+    box-shadow: -1px 10px 5px rgba(0, 0, 0, 0.216);
+}
+
+
+.header1 {
+    position: absolute;
+    padding-top: 15px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+
+}
+
+#knop {
+    margin-left: 20px;
+    color: #09625c;
+    font-size: x-large;
+    width: 120px;
+    text-align: center;
+    padding-top: 22px;
+
+}
+#knop1 {
+    color: white;
+    background-color: #09625c;
+    border-radius: 7px;
+    font-size: x-large;
+    margin-left: 50px;
+    width: 120px;
+    text-align: center;
+    height: 32px;
+    border: #09625c solid 5px;
+    margin-top: 16px;
+
+}
+
+#knop2{
+    color: white;
+    background-color: #09625c;
+    border-radius: 7px;
+    font-size: x-large;
+    width: 120px;
+    text-align: center;
+    height: 32px;
+    border: #09625c solid 5px;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 550px) {
+    #knop{
+        font-size: medium;
+        width: 50px;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+    #knop1{
+        font-size: medium;
+        width: 70px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 21px;
+    }
+
+}
+.header img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+/*image at top*/
+.main{
+    margin-top: 25px;
+    width: 96%;
+    margin-left: 2%;
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../pic/pizzafromabove.avif);
+    background-size: cover;
+    border-radius: 7px;
+}
+@media screen and (max-width: 1000px) {
+    .main {height: 300px;}
+}
+
+.main h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.maint {
+    color: ghostwhite;
+    font-size: 100px;
+}
+
+
+/*main divs*/
+.submain {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (max-width: 1000px) {
+    .submain {
+        flex-direction: column;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.submain1 {
+    width: 100%;
+    height: 610px;
+    margin-top: 5px;
+    background: url(../pic/pasta.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    background-color: #d80a44;
+}
+
+.submain2 {
+    width: 100%;
+    height: 610px;
+    margin-top: 5px;
+    margin-left: 1%;
+    border-radius: 7px;
+    background-color: #d80a44;
+}
+@media screen and (max-width: 1000px) {
+    .submain1{
+        margin-right: 0%;
+    }
+    .submain2{
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+}
+
+.order {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer{
+    padding-left: 15px;
+    background-color: #09625c;
+    width: 100%;
+    height: 25px;
+    margin-top: 60px;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f111;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #f1f1f1a5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888888b4;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*form styling*/
+
+.form{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 8px auto;
+    padding: 10px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align:center ;
+}
+.form fieldset{
+    border: none;
+}
+.form legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form textarea,
+.form select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="datetime"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus,
+.form input[type="search"]:focus,
+.form input[type="time"]:focus,
+.form input[type="url"]:focus,
+.form textarea:focus,
+.form select:focus{
+    background: #d2d9dd;
+}
+.form select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form input[type="submit"],
+.form input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #09615C;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+}
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover
+{
+    background: #0d8c86;
+}
