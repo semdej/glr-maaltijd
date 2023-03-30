@@ -32,6 +32,7 @@
 <div class="submain1">
     <div class="form">
     <form class="form" style="max-width: 50rem; margin-left: auto; margin-right: auto;" action="bestellen.php" method="post">
+        <h1>Bestellen</h1>
         <label for="name">Adres:</label>
         <input placeholder="Adres, b.v. Amstelplein 10" class="forminput" type="text" name="adress" id="adress" required />
         <br />

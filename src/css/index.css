@@ -2,8 +2,8 @@
 body{
     width: 100%;
     height: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
     font-family: "M PLUS Rounded 1c", Tahoma, sans-serif;
 }
@@ -53,6 +53,7 @@ padding-left: 20px;
 
 }
 #knop1 {
+    transition: 0.3s;
     color: white;
     background-color: #09625c;
     border-radius: 7px;
@@ -99,9 +100,10 @@ max-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pizzafromabove.avif);
+    background: url(../pic/main.png);
     background-size: cover;
     border-radius: 7px;
+    box-shadow: gray 2px 2px 3px;
 }
 @media screen and (max-width: 1000px) {
   .main {height: 300px;}  
@@ -132,43 +134,38 @@ max-height: 50px;
 
 .submain1 {
     width: 100%;
-    height: 650px;
+    height: 800px;
     margin-top: 5px;
     margin-right: 1%;
-    background: url(../pic/pasta.jpg);
+    background: url(../pic/submain.jpeg);
     background-size: cover;
     border-radius: 7px;
-    background-color: #d80a44;
+    box-shadow: gray 2px 2px 2px;
 }
 
 .submain2 {
     width: 100%;
-    height: 650px;
+    height: 800px;
     margin-top: 5px;
     margin-left: 1%;
     border-radius: 7px;
-    background-color: #d80a44;
+    background-color: #09625c;
+    box-shadow: gray 2px 2px 2px;
 }
 @media screen and (max-width: 1000px) {
     .submain1{
         margin-right: 0%;
+        height: 650px;
     }
     .submain2{
         margin-left: 0%;
         margin-top: 50px;
+        height: 650px;
     }
 }
 
 /*footer*/
-.footer{
-    width: 100%;
-    background-color: white;
-    height: 50px;
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    
-}
+
 
 .footer{
     padding-left: 15px;
@@ -176,7 +173,9 @@ max-height: 50px;
     width: 100%;
     height: 25px;
     margin-top: 60px;
+    color: white;
 }
+
 
 /*scrollbar*/
 ::-webkit-scrollbar {
@@ -206,14 +205,12 @@ max-height: 50px;
 /*form styling*/
 
 .form{
-    margin-top: 25px;
+    margin-top: 35px;
     max-width: 500px;
-    padding: 10px 20px;
     background: #f4f7f8;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    background: #f4f7f8;
+    padding: 5px 10px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -303,9 +300,14 @@ max-height: 50px;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
     border-radius: 0.5rem;
+    transition: 0.3s;
 }
 .form input[type="submit"]:hover,
 .form input[type="button"]:hover
 {
     background: #0d8c86;
 }
+.form h1{
+    font-family: "M PLUS Rounded 1c", Tahoma, sans-serif;
+    margin-top: -10px;
+    }
