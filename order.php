@@ -17,7 +17,7 @@
         <div class="header2">
             <a id="knop" href="order.php">Order</a>
             <a id="knop" href="menu.php">Menu</a>
-            <a id="knop1" href="bestellen.php">Bestellen</a>
+            <a id="knop1" href="menu.php">Bestellen</a>
         </div>
     </div>
 
