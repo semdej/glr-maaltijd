@@ -234,7 +234,13 @@ a {
     .form{
         min-width: 0;
         max-width: 400px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    .form h1{font-size: small;}
+    .maint{display: none}
+
 }
 .form fieldset{
     border: none;
@@ -382,5 +388,17 @@ a {
     .menu_items{font-size: 11px}
 }
 @media screen and (max-width: 660px) {
-    .menu_items{grid-template-columns: 1fr 1fr}
+    .menu_items{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    .item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .itemd{
+        margin-left: 0;
+        margin-right: 0;
+        height: 140px;
+    }
 }
