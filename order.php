@@ -32,7 +32,7 @@
             <label for="ordernummer">Ordernummer:</label>
             <input type="text" name="ordernummer" id="ordernummer" required />
             <br />
-            <input type="submit" value="Bekijken" />
+            <input type="submit" value="Bekijken" class="submitbutton"/>
         </form>
         </div>
     </div>
