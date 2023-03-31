@@ -230,6 +230,12 @@ a {
     text-align:center ;
 
 }
+@media screen and (max-width: 1000px) {
+    .form{
+        min-width: 0;
+        max-width: 400px;
+    }
+}
 .form fieldset{
     border: none;
 }
@@ -329,6 +335,7 @@ a {
     font-size: 35px;
 }
 
+
 /*menu*/
 .menu_items{
     display: grid;
@@ -361,4 +368,19 @@ a {
     border-radius: 8px;
     background-color: #09625c;
     box-shadow: gray 2px 2px 3px;
+}
+/*smaller screens for items*/
+@media screen and (max-width: 1200px) {
+    .menu_items{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .itemd{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .menu_items{font-size: 11px}
+}
+@media screen and (max-width: 660px) {
+    .menu_items{grid-template-columns: 1fr 1fr}
 }
